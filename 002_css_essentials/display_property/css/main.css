@@ -1,0 +1,22 @@
+div{
+  width: 100px;
+  height: 100px;
+  border: 1px solid blue;
+}
+
+ .inline{
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  display: inline;
+}
+
+.inline-block{
+ width: 100px;
+ height: 100px;
+ border: 1px solid green;
+ display: inline-block;
+}
+
+/* display: none; - Selectors with this property and value
+set won't appear */ 
