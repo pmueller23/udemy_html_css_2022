@@ -1,0 +1,32 @@
+/* div element selector with margin property applied */
+div {
+  border: 1px solid red;
+  border-radius: 100%;
+  background-image: url(../pictures/star_dune.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+}
+
+/* img element selector with padding property applied */
+img {
+  width: 300px;
+  height: 300px;
+  border: 3px solid orange;
+  border-radius: 100%;
+  padding: 20px;
+}
+
+.duneone {
+  border: 3px dotted blue;
+}
+
+.dunetwo {
+  border: 3px dashed black;
+}
+
+.dunethree {
+  border: 3px double red;
+}
