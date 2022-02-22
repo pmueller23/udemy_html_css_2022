@@ -1,0 +1,18 @@
+li:nth-child(5){
+  font-size: 20px;
+  color: green;
+}
+
+li:nth-last-child(2){
+  font-size: 20px;
+  color: red;
+}
+
+li:nth-child(3n+1){
+  font-size: 16px;
+  color: blue;
+}
+
+li:only-child{
+  color: orange;
+}
