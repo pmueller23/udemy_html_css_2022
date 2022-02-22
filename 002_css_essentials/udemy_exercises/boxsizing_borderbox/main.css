@@ -1,0 +1,14 @@
+/*formatted div element where the border expands beyond the
+specified width/height dimensions declared*/
+div{
+  width: 400px;
+  height: 200px;
+  border: 10px dashed red;
+  margin: 20px auto;
+}
+
+/*formatted div element where the border is constrained
+within the specified width/height dimensions declared above*/
+.two{
+  box-sizing: border-box;
+}

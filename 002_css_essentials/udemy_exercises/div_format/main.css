@@ -1,0 +1,7 @@
+/*Formatted div element with margin, height, width, and background color properties*/
+div{
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}

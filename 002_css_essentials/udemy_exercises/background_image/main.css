@@ -1,0 +1,10 @@
+/*Formatted div element with a background image*/
+div{
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  background-image: url(pictures/star_dune.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 20px groove yellow;
+}
