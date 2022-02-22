@@ -1,0 +1,11 @@
+input{
+  background-color: ghostwhite;
+  border: 1px solid lightgrey;
+}
+input:focus {
+  border: 3px solid green;
+}
+
+/* pseudo-class: focus is similar to "active" */
+/* pseudo-class: focus is primarily used on forms where
+active is on links */
