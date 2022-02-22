@@ -1,0 +1,5 @@
+/* selects all p tags within a div*/
+div p{
+  font-size: 24px;
+  color: red;
+}
