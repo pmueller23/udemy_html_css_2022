@@ -1,0 +1,14 @@
+p{
+  font-style: normal;
+  font-size: 16px;
+  margin: 20px;
+  text-align: center;
+}
+
+/* below is an example of an attribute selector*/
+/* will format any tags with the "href" html attribute
+with the declared property values */
+[href]{
+  border: 2px dotted red;
+  color: red;
+}
