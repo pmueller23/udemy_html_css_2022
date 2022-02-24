@@ -1,0 +1,12 @@
+/* CSS Order of Specificity value: (0,1,0) */
+.intro{
+  font-size: 18px;
+  color: green;
+}
+
+/* CSS Order of Specificity value: (1,0,0) */
+/* This rule will be applied */
+#MainHeading{
+  font-size: 24px;
+  color: blue;
+}
