@@ -1,0 +1,70 @@
+
+.serif{
+  font-family: serif;
+  font-size: 1.25rem;
+  font-weight: normal;
+  font-style: italic;
+  font-variant: small-caps;
+}
+
+.sans-serif{
+  font-family: sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: capitalize;
+}
+
+.google-font{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+}
+
+h1.serif{
+  font-size: 2rem;
+  text-shadow: 2px 2px 3px red;
+}
+
+h1.sans-serif{
+  font-size: 2rem;
+}
+
+h1.google-font{
+  font-size: 2rem;
+}
+
+h2{
+  font-family: serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+a{
+  font-family: serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: red;
+  text-transform: uppercase;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+h3{
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-decoration: line-through;
+}
+
+.indent{
+  text-indent: 50px;
+}
