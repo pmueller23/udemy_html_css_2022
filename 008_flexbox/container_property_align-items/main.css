@@ -5,6 +5,9 @@ section{
   height: 700px;
 }
 
+/* align-items property is best to move one line of content along the cross-axis.
+Applying this property to content that takes up multiple lines can result in
+unwanted space between lines of content */
 .baseline{
   align-items: baseline;
 }
