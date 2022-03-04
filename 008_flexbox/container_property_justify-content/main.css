@@ -1,0 +1,39 @@
+section{
+  display: flex;
+  border: 2px solid black;
+}
+
+.rowspacebetween{
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.rowspacearound{
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.rowflexstart{
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.rowflexend{
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.rowcenter{
+  flex-direction: row;
+  justify-content: center;
+}
+
+div{
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  border: 3px solid blue;
+
+h1{
+  font-size: 1.5rem;
+}
