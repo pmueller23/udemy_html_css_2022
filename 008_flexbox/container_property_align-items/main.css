@@ -1,0 +1,44 @@
+section{
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  height: 700px;
+}
+
+.baseline{
+  align-items: baseline;
+}
+
+.center{
+  align-items: center;
+}
+
+.flexend{
+  align-items: flex-end;
+}
+
+.flexstart{
+  align-items: flex-start;
+}
+
+.stretch{
+  align-items: stretch;
+}
+
+div{
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  border: 3px solid blue;
+}
+
+.noheight{
+  width: 200px;
+  height: auto;
+  background-color: yellow;
+  border: 3px solid blue;
+}
+
+h1{
+  font-size: 1.5rem;
+}
