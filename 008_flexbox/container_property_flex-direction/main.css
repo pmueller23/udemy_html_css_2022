@@ -1,0 +1,39 @@
+/* designated flex containers*/
+section{
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  margin: 25px 0;
+}
+
+/* flex-direction property and value */
+#row{
+  flex-direction: row;
+}
+
+/* flex-direction property and value */
+#rowreverse{
+  flex-direction: row-reverse;
+}
+
+/* flex-direction property and value */
+#column{
+  flex-direction: column;
+}
+
+/* flex-direction property and value */
+#columnreverse{
+  flex-direction: column-reverse;
+}
+
+h1{
+  font-size: 1.5rem;
+}
+
+/* flex items */
+div{
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  border: 2px solid blue;
+}

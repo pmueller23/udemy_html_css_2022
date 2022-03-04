@@ -1,0 +1,16 @@
+section{
+  display: flex; /* designates section as the flex container */
+  border: 2px solid black;
+  justify-content: space-between;
+  /* flex-direction: row; (default setting) */
+  /* flex-wrap: nowrap; (default setting) */
+}
+
+/* all divs are flex items because they're nested within
+the section on the html document */
+div{
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  border: 3px solid blue;
+}

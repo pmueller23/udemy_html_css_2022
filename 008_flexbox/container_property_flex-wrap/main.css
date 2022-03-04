@@ -1,0 +1,33 @@
+/* designated flex containers*/
+section{
+  display: flex;
+  border: 2px solid black;
+  margin: 25px 0;
+}
+
+/* flex-wrap property and value */
+#wrap{
+  flex-wrap: wrap;
+}
+
+/* flex-wrap property and value */
+#nowrap{
+  flex-wrap: nowrap;
+}
+
+/* flex-wrap property and value */
+#reverse{
+  flex-wrap: wrap-reverse;
+}
+
+h1{
+  font-size: 1.5rem;
+}
+
+/* flex items */
+div{
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  border: 2px solid blue;
+}
