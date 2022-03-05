@@ -14,12 +14,19 @@ div{
   background-color: yellow;
   border: 2px solid blue;
   margin: 1rem;
+  /* for text inside the div */
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
+  /* order property */
+  /* for the five declared below, plus 1 for the remaining
+  elements in order they appear in the HTML */
   order: 6;
 }
 
+/* order property */
+/* Arrange the order in which elements inside a
+flex container appear*/
 .five{
   order: 1;
 }
