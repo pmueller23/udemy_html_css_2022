@@ -1,0 +1,41 @@
+h1{
+  font-style: 1.5rem;
+}
+
+section{
+  border: 2px solid red;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+div{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border: 2px solid blue;
+  margin: 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  order: 6;
+}
+
+.five{
+  order: 1;
+}
+
+.eight{
+  order: 2;
+}
+
+.twelve{
+  order: 3;
+}
+
+.sixteen{
+  order: 4;
+}
+
+.twenty{
+  order: 5;
+}
