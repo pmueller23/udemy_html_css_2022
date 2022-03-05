@@ -1,0 +1,37 @@
+h1 {
+  font-size: 1.5rem;
+}
+
+section{
+  border: 2px solid red;
+  /* flex container for divs*/
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+div{
+  margin: .25rem;
+  height: 100px;
+  width: 300px;
+  background-color: yellow;
+  border: 2px solid blue;
+  /* flex shorthand (flex-grow, flex shrink, flex basis)
+
+  when the viewport is greater than 900px, the divs will
+  grow
+
+  when the viewport is less than 900px, the divs will
+  shrink */
+  flex: 1 1 auto;
+  /* flex container for text inside of divs*/
+  display: flex;
+  /* applies to text inside of divs*/
+  justify-content: center;
+}
+
+/* an id or class can be applied to one of the divs
+to give its own flex values different from the rest*/
+
+.flex{
+  flex: 2 2 auto;
+}
