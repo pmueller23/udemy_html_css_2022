@@ -1,0 +1,33 @@
+h1 {
+  font-size: 1.5rem;
+}
+
+section{
+  border: 2px solid red;
+  /* flex container for divs*/
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+div{
+  margin: .25rem;
+  height: 100px;
+  width: 300px;
+  background-color: yellow;
+  border: 2px solid blue;
+  /* flex container for text inside of divs*/
+  display: flex;
+  /* applies to text inside of divs*/
+  justify-content: center;
+}
+
+/* flex-shrink */
+/* when viewport is less than 1200px, flex-shrink will
+kick in. 4 divs with width of 300px equals 1200px */
+.flex1{
+  flex-shrink: 1;
+}
+
+.flex2{
+  flex-shrink: 2;
+}
