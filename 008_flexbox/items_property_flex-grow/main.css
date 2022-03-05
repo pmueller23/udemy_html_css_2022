@@ -1,0 +1,31 @@
+h1 {
+  font-size: 1.5rem;
+}
+
+section{
+  border: 2px solid red;
+  display: flex;
+  flex-flow: row nowrap;
+  /* flex-flow settings will cause varying results*/
+}
+
+div{
+  margin: .25rem;
+  height: 100px;
+  /* width/height settings will cause varying results*/
+  background-color: yellow;
+  border: 2px solid blue;
+  display: flex;
+  justify-content: center;
+}
+
+/* flex-grow */
+/* this class will take up 1/3 of the row*/
+.flex1{
+  flex-grow: 1;
+}
+
+/* this class will take up 2/3 of the row*/
+.flex2{
+  flex-grow: 2;
+}
