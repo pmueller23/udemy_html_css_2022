@@ -1,0 +1,45 @@
+h1 {
+  font-size: 1.5rem;
+}
+
+section{
+  border: 2px solid red;
+  /* flex container for divs*/
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+div{
+  margin: .25rem;
+  height: 100px;
+  width: 200px;
+  background-color: yellow;
+  border: 2px solid blue;
+  /* with flex-basis: auto, each div will want to be
+  200px each because thats the width specified above
+
+  if no width is specified above, a width value would
+  be set for flex-basis
+  example, flex-basis: 200px */
+  flex-basis: auto;
+  /* flex container for text inside of divs*/
+  display: flex;
+  /* applies to text inside of divs*/
+  justify-content: center;
+}
+
+/* when the viewport is greater than 600px, the divs will
+grow
+
+when the viewport is less than 600px, the divs will
+shrink */
+.flex1{
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+/* this class will take up 2/3 of the row*/
+.flex2{
+  flex-grow: 2;
+  flex-shrink: 2;
+}
