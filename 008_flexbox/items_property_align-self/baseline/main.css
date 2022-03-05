@@ -1,0 +1,47 @@
+section{
+  display: flex;
+  flex-flow: row wrap;
+  border: 2px solid black;
+  height: 600px;
+  align-items: flex-start;
+}
+
+div{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: 3px solid blue;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+}
+
+/* align-items */
+.start {
+    align-items: flex-start;
+}
+
+.center {
+    align-items: center;
+}
+
+.end {
+    align-items: flex-end;
+}
+
+/* align-self property allows to take individual items
+and align them differently from the other items */
+
+/* align-self */
+.baseline {
+    align-self: baseline;
+}
+}
+
+h1{
+  font-size: 1.5rem;
+}
+
+p{
+  font-size: 1.25rem;
+}
