@@ -1,0 +1,10 @@
+h1{
+  font-size: 1.25rem;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.small{
+  font-size: 1rem;
+  text-decoration: underline;
+}

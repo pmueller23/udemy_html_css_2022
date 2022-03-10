@@ -1,0 +1,12 @@
+h1{
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: blue;
+}
+
+h2{
+  color: black;
+  font-size: 1rem;
+  font-family: sans-serif;
+}
