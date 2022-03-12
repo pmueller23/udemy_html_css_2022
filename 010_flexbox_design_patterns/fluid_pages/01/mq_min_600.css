@@ -1,0 +1,31 @@
+#container{
+  margin: 0 auto;
+  width: 80%;
+}
+
+header, nav {
+  width: 50%;
+}
+
+#content{
+  height: 300px;
+  flex-direction: column;
+}
+
+article{
+  width: 70%;
+}
+
+.article_one{
+  order: 1;
+}
+
+.article_two{
+  order: 2;
+}
+
+aside{
+  width: 30%;
+  height: 100%;
+  order: 3;
+}

@@ -1,0 +1,28 @@
+ul{
+  background-color: deepskyblue;
+}
+
+li{
+  text-align: center;
+  padding: 1.5rem;
+  border-bottom: 2px solid lightgrey;
+}
+
+li:last-child{
+  border-bottom: none;
+}
+
+li:hover{
+  background-color: lightskyblue;
+}
+
+a:link{
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  font-family: sans-serif;
+  color: whitesmoke;
+}
+
+a:hover{
+  color: royalblue;
+}

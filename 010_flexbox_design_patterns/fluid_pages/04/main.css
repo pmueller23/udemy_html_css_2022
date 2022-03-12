@@ -1,0 +1,11 @@
+body{
+  padding: .5rem;
+}
+
+header, nav, article, aside, footer{
+  box-sizing: border-box;
+  text-align: center;
+  padding: 1.5rem;
+  border: 2px solid black;
+  background-color: wheat;
+}

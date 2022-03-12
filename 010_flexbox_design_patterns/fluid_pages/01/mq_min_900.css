@@ -1,0 +1,21 @@
+#content{
+  height: 150px;
+  flex-direction: row;
+}
+
+article{
+  width: 40%;
+}
+
+.article_one{
+  order: 1;
+}
+
+.article_two{
+  order: 2;
+}
+
+aside{
+  width: 20%;
+  order: 3;
+}

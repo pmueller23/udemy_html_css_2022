@@ -1,0 +1,20 @@
+main{
+  width: 60%;
+  order: 3;
+}
+
+aside{
+  width: 20%;
+}
+
+.asideone{
+  order: 2;
+}
+
+.asidetwo{
+  order: 4;
+}
+
+footer{
+  order: 5;
+}

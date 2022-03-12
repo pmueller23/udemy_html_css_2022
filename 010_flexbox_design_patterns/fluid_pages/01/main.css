@@ -1,0 +1,26 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+#container{
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+header, nav, main, #content, article, aside, footer{
+  width: 100%;
+  min-height: 150px;
+  border: 2px solid black;
+  background-color: skyblue;
+  box-sizing: border-box;
+}
+
+#content{
+  box-sizing: border-box;
+  border: none;
+  display: flex;
+  flex-flow: row wrap;
+}

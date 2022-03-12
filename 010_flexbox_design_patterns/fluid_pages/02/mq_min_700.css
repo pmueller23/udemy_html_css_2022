@@ -1,0 +1,25 @@
+body{
+  width: 80%;
+  margin: 1rem auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+nav{
+  margin-top: 0;
+  width: 25%;
+}
+
+main{
+  width: 75%;
+}
+
+ul{
+  flex-flow: column nowrap;
+  align-items: flex-start;
+}
+
+li{
+  display: block;
+}

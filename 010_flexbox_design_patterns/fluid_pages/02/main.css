@@ -1,0 +1,38 @@
+nav, main{
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  border: 3px solid red;
+}
+
+nav{
+  margin-top: 1rem;
+  padding: .25rem;
+}
+
+main{
+  padding: 1rem;
+}
+
+ul{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+li{
+  padding: 1rem;
+  display: inline;
+  font-size: 1.5rem;
+  font-family: serif;
+}
+
+p {
+  font-size: 1.5rem;
+  font-family: serif;
+}
+
+p:nth-child(2), p:nth-child(3){
+  margin-top: 1rem;
+}

@@ -1,0 +1,15 @@
+#container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(pics/star_dune.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p{
+  font-family: sans-serif;
+  font-size: 2rem;
+  color: white;
+}

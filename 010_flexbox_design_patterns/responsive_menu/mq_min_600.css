@@ -1,0 +1,13 @@
+ul{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+
+li{
+  border: none;
+  padding: 1rem .25rem;
+}
+
+a:link{
+  padding: 1rem;
