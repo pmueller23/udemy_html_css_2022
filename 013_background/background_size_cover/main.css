@@ -1,0 +1,13 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+div{
+  background-image: url(star_dune.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 600px;
+  border: 8px solid blue;
+}
