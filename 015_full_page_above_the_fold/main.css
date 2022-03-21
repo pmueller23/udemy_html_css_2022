@@ -1,0 +1,60 @@
+#index-atf{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(img/background-photo-mobile-devices.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#index-atf > div{
+  height: 80vh;
+}
+
+.index-center-container{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.index-center-text{
+ text-align: center;
+}
+
+h1, h2, h3{
+  font-family: 'Cantarell', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+h1{
+  font-size: 3.75rem;
+  /* default setting - font-weight: 400; */
+}
+
+h2{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+h3{
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  margin-top: 3px;
+  /* default setting - font-weight: 400; */
+}
+
+button{
+  font-family: 'Cantarell', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(202, 250, 234);
+  padding: .3rem;
+  border: 1px solid rgb(202, 250, 234);
+  border-radius: 2px;
+}
