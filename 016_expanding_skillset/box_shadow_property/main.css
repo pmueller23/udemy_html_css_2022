@@ -1,0 +1,14 @@
+div{
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+  border: 2px solid black;
+  box-shadow: 5px 5px 10px red;
+  /* (x, y, blur, color)*/
+}
+
+#spread{
+  margin: 100px auto;
+  box-shadow: 5px 5px 10px 20px blue;
+  /* (x, y, blur, spread, color)*/
+}

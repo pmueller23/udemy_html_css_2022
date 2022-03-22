@@ -1,0 +1,18 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+
+
+p{
+  font-style: 2rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 2rem;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+span{
+  vertical-align: 20px;
+}
