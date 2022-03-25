@@ -1,0 +1,23 @@
+#backward-fast{
+  width: 100px;
+  height: 100px;
+  fill: red;
+}
+
+#backward-fast:hover{
+  width: 100px;
+  height: 100px;
+  fill: blue;
+}
+
+#backward-step{
+  width: 100px;
+  height: 100px;
+  fill: red;
+}
+
+#backward-step:hover{
+  width: 100px;
+  height: 100px;
+  fill: blue;
+}

@@ -1,0 +1,11 @@
+#atom-icon{
+  width: 300px;
+  height: 300px;
+  stroke: blue;
+  fill: yellow;
+  stroke-width: 5px;
+}
+
+#atom-icon:hover{
+  fill: orange;
+}
