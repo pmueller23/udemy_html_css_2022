@@ -1,0 +1,136 @@
+html{
+  font-family: 'Cantarell', sans-serif;
+  color: white;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 2.8rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header div{
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header div a{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header div a:hover{
+  color: #cafaea;
+}
+
+header div a h1{
+  font-size: 1rem;
+  margin-left: .5rem;
+}
+
+header nav, header nav a, .indx-hdr-svg, .indx-hdr-svg:hover{
+  display: none;
+}
+
+#index-atf{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(img/background-photo-mobile-devices.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#index-atf > div{
+  height: 80vh;
+}
+
+.index-center-container{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.index-center-text{
+ text-align: center;
+}
+
+h1, h2, h3{
+  text-align: center;
+}
+
+h1{
+  font-size: 3.75rem;
+  /* default setting - font-weight: 400; */
+}
+
+h2{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+h3{
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  margin-top: 3px;
+  /* default setting - font-weight: 400; */
+}
+
+button{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #cafaea;
+  padding: .3rem;
+  border: 1px solid #cafaea;
+  border-radius: 2px;
+}
+
+nav#mobile-menu ul{
+  background-color: #cafaea;
+}
+
+nav#mobile-menu a{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 2rem;
+  height: 5rem;
+  color: darkslategrey;
+  border-bottom: 2px solid darkslategrey;
+}
+
+nav#mobile-menu a:last-child{
+  border: none;
+}
+
+nav#mobile-menu li{
+  font-size: 1.25rem;
+  margin-left: .5rem;
+}
+
+.mbl-menu-svg{
+  fill: currentColor;
+  height: 70%;
+}
+
+nav#mobile-menu a:hover{
+  color: white;
+  background-color: #b6e3d4;
+}
