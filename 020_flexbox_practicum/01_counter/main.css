@@ -1,0 +1,49 @@
+html{
+  font-family: sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#counter{
+  width: 305px;
+  height: 80px;
+  display: flex;
+  border: 1px solid #00a3d4;
+  border-radius: 15px;
+}
+
+#subtract, #add, #quantity{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+#subtract, #add{
+  width: 25%;
+  background-color: #03c2fc;
+  color: white;
+}
+
+#subtract{
+  border-right: 1px solid #00a3d4;
+  border-radius: 15px 0px 0px 15px;
+}
+
+#add{
+  border-left: 1px solid #00a3d4;
+  border-radius: 0px 15px 15px 0px;
+}
+
+#subtract:hover, #add:hover{
+  background-color: #63dbff;
+}
+
+#quantity{
+  width: 50%;
+}

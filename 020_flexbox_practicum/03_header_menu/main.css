@@ -1,0 +1,66 @@
+html{
+  font-family: sans-serif;
+  color: white;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 .4rem;
+  height: 3rem;
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav{
+  height: 2.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.6rem;
+  padding: 0 1.5rem;
+}
+
+button:hover{
+  background-color: lightgrey;
+  color: grey;
+}
+
+svg#logo{
+  height: 1rem;
+}
+
+div#atf{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main{
+  text-align: center;
+}
+
+svg#sectionImg{
+  fill: hotpink;
+  font-size: 75px;
+  margin-bottom: 25px;
+}
+
+h1{
+  font-size: 5rem;
+  color: lightgrey;
+  font-family: serif;
+  font-weight: bold;
+  letter-spacing: .5rem;
+}
