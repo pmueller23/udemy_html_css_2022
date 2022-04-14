@@ -1,0 +1,56 @@
+html, body, div, ul, label, input{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  color: black;
+}
+
+label{
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1;
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid #CCD1D1;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label:hover{
+  background-color: #B2BABB;
+}
+
+svg{
+  fill: currentColor;
+  width: 2rem;
+  height: 2rem;
+}
+
+input[type="checkbox"]{
+  display: none;
+}
+
+#sidebar{
+  position: fixed;
+  height: 100%;
+  width: 200px;
+  left: -200px;
+  background-color: #E5E8E8;
+  border-right: 1px solid #CCD1D1;
+  transition-property: all;
+  transition-timing-function: ease;
+  transition-duration: 1s;
+}
+
+input[type="checkbox"]:checked + #sidebar{
+  left: 0;
+}
+
+ul{
+  margin: 4rem 1rem;
+  list-style: none;
+}
