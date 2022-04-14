@@ -1,0 +1,19 @@
+.icon{
+  fill: darkblue;
+  height: 16rem;
+}
+
+.cloud-shower-water{
+  animation-name: slide-lr;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: relative;
+  left: 0;
+}
+
+@keyframes slide-lr {
+  0% { left: 0; }
+  100% { left: 75%; }
+}
