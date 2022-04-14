@@ -1,0 +1,72 @@
+html{
+  color: grey;
+}
+
+body{
+  padding: 0rem 1rem;
+}
+
+main{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  font-family: serif;
+  font-weight: bold;
+  font-size: 7vw;
+  text-align: center;
+  line-height: 110%;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-top: 1px solid grey;
+}
+
+div#save-progress{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 17.5vw;
+}
+
+svg.rotating-arrow{
+  font-size: 2vw;
+  animation-name: spin;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+span{
+  font-size: 3.5vw;
+}
+
+div#buttons{
+  display: flex;
+  justify-content: flex-end;
+}
+
+button{
+  font-family: sans-serif;
+  font-size: 3.8vw;
+  color: #00BEFF;
+  border-radius: 3px;
+  padding: 1rem 1.7rem;
+}
+
+button:hover{
+  background-color: #00BEFF;
+  color: white;
+}
