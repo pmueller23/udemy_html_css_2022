@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Textarea, Select, Option, Option Groups</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <form action="/" method="post">
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="8" cols="80"></textarea>
+
+    <label for="select">Select:</label>
+    <select class="select" name="selection">
+      <optgroup label="Group 1">
+        <option value="Option 1">Option 1</option>
+        <option value="Option 2">Option 2</option>
+        <option value="Option 3">Option 3</option>
+      </optgroup>
+      <optgroup label="Group 2">
+        <option value="Option 1">Option 1</option>
+        <option value="Option 2">Option 2</option>
+        <option value="Option 3">Option 3</option>
+      </optgroup>
+      <optgroup label="Group 3">
+        <option value="Option 1">Option 1</option>
+        <option value="Option 2">Option 2</option>
+        <option value="Option 3">Option 3</option>
+      </optgroup>
+    </select>
+  </form>
+</body>
+</html>
