@@ -1,0 +1,18 @@
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 1rem;
+  color: white;
+  background-image: linear-gradient(lightgreen, green);
+}
+
+button:hover{
+  background-image: linear-gradient(green, lightgreen);
+}
