@@ -1,5 +1,12 @@
+html, body, div{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 html{
   font-family: sans-serif;
+  font-size: 3vw;
 }
 
 body{
@@ -10,34 +17,33 @@ body{
 }
 
 #counter{
-  width: 305px;
-  height: 80px;
+  width: 19.2rem;
+  height: 4.8rem;
   display: flex;
   border: 1px solid #00a3d4;
-  border-radius: 15px;
+  border-radius: 12px;
 }
 
 #subtract, #add, #quantity{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
 }
 
 #subtract, #add{
-  width: 25%;
   background-color: #03c2fc;
   color: white;
+  flex-grow: 1;
 }
 
 #subtract{
   border-right: 1px solid #00a3d4;
-  border-radius: 15px 0px 0px 15px;
+  border-radius: 10px 0px 0px 10px;
 }
 
 #add{
   border-left: 1px solid #00a3d4;
-  border-radius: 0px 15px 15px 0px;
+  border-radius: 0px 10px 10px 0px;
 }
 
 #subtract:hover, #add:hover{
@@ -45,5 +51,5 @@ body{
 }
 
 #quantity{
-  width: 50%;
+  flex-grow: 2;
 }
